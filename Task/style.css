@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+input {
+  border: 0;
+  outline: 0;
+}
+.form {
+  border-radius: 10px;
+  background: white;
+  width: 600px;
+  padding: 16px;
+  box-shadow: 5px 15px 45px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 15px 45px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 15px 45px -5px rgba(0, 0, 0, 0.75);
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+p {
+  margin: 0 15px 0 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+}
+.text {
+  margin-left: 25px;
+}
+
+.info {
+  display: flex;
+}
+
+.birthday {
+  font-size: 20px;
+}
+
+.title-span {
+  font-weight: 700;
+}
+
+.up {
+  margin-top: 25px;
+}
+.lg {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  align-items: center;
+  height: 30px;
+}
+.vl {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  align-items: center;
+  height: 30px;
+}
+select {
+  height: 20px;
+}
+.keybutton {
+  background-color: black;
+  color: white;
+}
+table th,
+td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 75%;
+}
+
+th,
+td {
+  padding: 10px;
+}
