@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 28px;
+  background-color: rgb(101 0 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.discussion {
+  width: 800px;
+  height: 600px;
+  box-shadow: 0 0 15px 1px red;
+}
+.discussion-header {
+  height: 70px;
+  color: #000000;
+  padding-left: 10px;
+  background-color: rgb(247 155 255);
+  border-bottom: 2px solid black;
+}
+.text {
+  position: relative;
+}
+.text h2{
+  font-size: 25px;
+}
+.text p{
+  display: inline-block;
+}
+.text  .header-text-date{
+  padding-left: 40px;
+}
+h2, p, h6 {
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+}
+p {
+  margin-right: 50px;
+}
+.button {
+  margin-right: 1px;
+  margin-top: -32px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+.discussion-body {
+  width: 800px;
+  height: 530px;
+  background-color: rgb(244 0 255);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  overflow-y: scroll
+}
+.discussion-member {
+  width: 800px;
+  height: 80px;
+  display: flex;
+
+}
+.photo-date {
+  width: 150px;
+  height: 80px;
+  border-right: 1px solid black;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 12px;
+}
+.photo-part {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: solid black 2px;
+  display: inline-flex;
+  overflow: hidden;
+  background-color: white;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+.date-part {
+  width: 60px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  padding-top: 4%;
+  padding-left: 8px;
+}
+.text-part {
+  width: 635px;
+  height: 80px;
+  float: right;
+  padding-left: 2%;
+  padding-top: 1%;
+  border-left: solid;
+  background-color: rgb(251 114 252);
+}
+.message {
+  border: solid black 2px;
+  width: 610px;
+  height: 43px;
+  padding: 11px;
+  color: white;
+  background-color: rgb(180 0 175 / 28%);
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 8px
+}
