@@ -35,8 +35,12 @@ else {
 // let A=+prompt("enter A number:");
 // let B=+prompt("enter B number:");
 // let C=+prompt("enter C number:");
-// let X= (C-B)/A;
-// console.log('X='+ ((C-B)/A));
+// if(A===0||B===0||C===0){
+//     alert('You cant write zero');
+// } else{
+//     let X = (C-B)/A;
+//     console.log(X);
+// }
 
 
 
@@ -48,7 +52,7 @@ else {
 // if(A>B){
 //     console.log(A+B);
 // }
-// else if(A==B){
+// else if(A===B){
 //     console.log(A*B);
 // }
 // else {
@@ -74,7 +78,7 @@ else {
 //     console.log('x2='+x2);
 // }
 
-// else if(D==0) {
+// else if(D===0) {
 //     x1=x2=-b/(2*a);
 //     console.log('x1=x2='+x1);
 // }
@@ -159,7 +163,7 @@ else {
 // let radius=r*r;
 // let formula= Math.sqrt((x*x)+(y*y));
 
-// if(radius=formula){
+// if(radius===formula){
 //     console.log("(x,y) is inside a circle");
 // }
 // else {
