@@ -1,18 +1,18 @@
 // Let's say you have an array of arbitrary size filled with random numbers (one array per task). You need to:
 
 // 1. Find the minimum element of this array.
-// let arr = [5,12,4,6,15];
-// let min = arr[0];
-// for (let i = 0; i < arr.length; i++){
-//     if (arr[i] < min ) {
-//         min = arr[i];
-//     }
-// }
-// console.log(min);
+let arr = [5,12,4,6,15];
+let min = arr[0];
+for (let i = 0; i < arr.length; i++){
+    if (arr[i] < min ) {
+        min = arr[i];
+    }
+}
+console.log(min);
 
-// (another way)
-// const a = [5,12,4,6,16];
-// console.log(Math.min(...a));
+(another way)
+const a = [5,12,4,6,16];
+console.log(Math.min(...a));
 
 
 
@@ -103,6 +103,21 @@
 //    }
 // }
 // console.log(count);
+
+
+
+
+// 8. Swap the first and second half of the array, for example, for an array of 1234, the result is 3412, or for 12345 the result will be 45312.
+// let arr = [5,12,4,6,15];
+// console.log(arr)
+// let swap;
+// let arr1;
+// let arr2;
+// swap = arr.length / 2
+// arr1 = arr.slice(0, swap)
+// arr2 = arr.slice(swap, arr.length)
+// arr = [arr2 + arr1]
+// console.log(arr)
 
 
 
