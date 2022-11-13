@@ -61,16 +61,16 @@ else {
 
 
 // 3. The user enters 3 non-zero numbers (A, B and C). Print to the console the solution (the value of X) of the standard linear equation, where A*X+B=C.
+// let A=+prompt("enter A number:");
+// let B=+prompt("enter B number:");
+// let C=+prompt("enter C number:");
+// if(A===0||B===0||C===0){
+//     alert('You cant write zero');
+// } else{
+//     let X = (C-B)/A;
+//     console.log(X);
+// }
 
-let A=+prompt("enter A number:");
-let B=+prompt("enter B number:");
-let C=+prompt("enter C number:");
-if(A===0||B===0||C===0){
-    alert('You cant write zero');
-} else{
-    let X = (C-B)/A;
-    console.log(X);
-}
 
 // (3. with function)
 // let A=+prompt("enter A number:");
@@ -232,36 +232,31 @@ if(A===0||B===0||C===0){
 
 
 // 7. User gives 3 numbers (x, y, r). Find out if point with location (x,y) is inside a circle with radius r? (the center of the circle is at the origin)
-let x=+prompt("enter x number:");
-let y=+prompt("enter y number:");
-let z=+prompt("enter z number:");
-let radius=r*r;
-let formula= Math.sqrt((x*x)+(y*y));
-if(radius===formula){
-    console.log("(x,y) is inside a circle");
-}
-else {
-    console.log("(x,y) is not inside a circle");
-}
+// let x=+prompt("enter x number:");
+// let y=+prompt("enter y number:");
+// let z=+prompt("enter z number:");
+// let radius=r*r;
+// let formula= Math.sqrt((x*x)+(y*y));
+// if(radius===formula){
+//     console.log("(x,y) is inside a circle");
+// }
+// else {
+//     console.log("(x,y) is not inside a circle");
+// }
 
 
-// (7. with function)
-let x=+prompt("enter x number:");
-let y=+prompt("enter y number:");
-let z=+prompt("enter z number:");
-let checkingRadiusAndFormula = (x,y,r) =>{
-    let radius=r*r;
-    let formula= Math.sqrt((x*x)+(y*y));
-    if(radius===formula){
-        console.log("(x,y) is inside a circle");
-    }
-    else {
-        console.log("(x,y) is not inside a circle");
-    }
-}
-checkingRadiusAndFormula(x,y,r);
-
-
-
-
-
+// // (7. with function)
+// let x=+prompt("enter x number:");
+// let y=+prompt("enter y number:");
+// let z=+prompt("enter z number:");
+// let checkingRadiusAndFormula = (x,y,r) =>{
+//     let radius=r*r;
+//     let formula= Math.sqrt((x*x)+(y*y));
+//     if(radius===formula){
+//         console.log("(x,y) is inside a circle");
+//     }
+//     else {
+//         console.log("(x,y) is not inside a circle");
+//     }
+// }
+// checkingRadiusAndFormula(x,y,r);
