@@ -1,18 +1,31 @@
 // Let's say you have an array of arbitrary size filled with random numbers (one array per task). You need to:
+// 1. Find the minimum element of this array
+// 2. Find the maximum element of this array
+// 3. Find the index of the minimum element of this array
+// 4. Find the index of the maximum element of this array
+// 5. Calculate the sum of array's elements with odd indices
+// 6. Reverse this array (array in reverse direction) - you have to create YOUR OWN function, which WILL NOT create any new array
+// 7. Count the number of odd elements in the array
+// 8. Swap the first and second half of the array, for example, for an array of 1234, the result is 3412, or for 12345 the result will be 45312.
+// 9. Sort the array in ascending order in one of the following ways: bubble sort, selection sort or insertion sort.
+// 10. Sort the array in descending order in one of the ways (different from the method taken in the 9th task): bubble sort, selection sort or insertion sort.
+
+
+// Let's say you have an array of arbitrary size filled with random numbers (one array per task). You need to:
 
 // 1. Find the minimum element of this array.
-let arr = [5,12,4,6,15];
-let min = arr[0];
-for (let i = 0; i < arr.length; i++){
-    if (arr[i] < min ) {
-        min = arr[i];
-    }
-}
-console.log(min);
+// let arr = [5,12,4,6,15];
+// let min = arr[0];
+// for (let i = 0; i < arr.length; i++){
+//     if (arr[i] < min ) {
+//         min = arr[i];
+//     }
+// }
+// console.log(min);
 
-(another way)
-const a = [5,12,4,6,16];
-console.log(Math.min(...a));
+// (another way)
+// const a = [5,12,4,6,16];
+// console.log(Math.min(...a));
 
 
 
